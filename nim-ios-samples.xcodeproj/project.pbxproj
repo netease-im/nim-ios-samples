@@ -1,0 +1,1167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180B94FA2E13AE2100E23117 /* V2NIMFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94C62E13AE2100E23117 /* V2NIMFriend.swift */; };
+		180B94FB2E13AE2100E23117 /* V2NIMUpdateTeamInfoParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94EE2E13AE2100E23117 /* V2NIMUpdateTeamInfoParams.swift */; };
+		180B94FC2E13AE2100E23117 /* V2TeamEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94EF2E13AE2100E23117 /* V2TeamEnum.swift */; };
+		180B94FD2E13AE2100E23117 /* V2NIMTeamMemberSearchOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94EA2E13AE2100E23117 /* V2NIMTeamMemberSearchOption.swift */; };
+		180B94FE2E13AE2100E23117 /* V2NIMTeamJoinActionInfoResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E62E13AE2100E23117 /* V2NIMTeamJoinActionInfoResult.swift */; };
+		180B94FF2E13AE2100E23117 /* V2NIMUserUpdateParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94F42E13AE2100E23117 /* V2NIMUserUpdateParams.swift */; };
+		180B95002E13AE2100E23117 /* V2NIMTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E22E13AE2100E23117 /* V2NIMTeam.swift */; };
+		180B95012E13AE2100E23117 /* V2NIMTeamInviteParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E32E13AE2100E23117 /* V2NIMTeamInviteParams.swift */; };
+		180B95022E13AE2100E23117 /* V2NIMMessageCustomAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D92E13AE2100E23117 /* V2NIMMessageCustomAttachment.swift */; };
+		180B95032E13AE2100E23117 /* V2NIMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94F72E13AE2100E23117 /* V2NIMError.swift */; };
+		180B95042E13AE2100E23117 /* V2NIMUpdateSelfMemberInfoParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94ED2E13AE2100E23117 /* V2NIMUpdateSelfMemberInfoParams.swift */; };
+		180B95052E13AE2100E23117 /* V2NIMFriendSetParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94CD2E13AE2100E23117 /* V2NIMFriendSetParams.swift */; };
+		180B95062E13AE2100E23117 /* V2NIMLocalConversationOperationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D22E13AE2100E23117 /* V2NIMLocalConversationOperationResult.swift */; };
+		180B95072E13AE2100E23117 /* V2NIMUpdatedTeamInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94EC2E13AE2100E23117 /* V2NIMUpdatedTeamInfo.swift */; };
+		180B95082E13AE2100E23117 /* V2NIMMessageNotificationAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94DD2E13AE2100E23117 /* V2NIMMessageNotificationAttachment.swift */; };
+		180B95092E13AE2100E23117 /* V2NIMTeamJoinActionInfoQueryOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E52E13AE2100E23117 /* V2NIMTeamJoinActionInfoQueryOption.swift */; };
+		180B950A2E13AE2100E23117 /* V2NIMFriendSearchOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94CC2E13AE2100E23117 /* V2NIMFriendSearchOption.swift */; };
+		180B950B2E13AE2100E23117 /* V2NIMTeamMemberSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94EB2E13AE2100E23117 /* V2NIMTeamMemberSearchResult.swift */; };
+		180B950C2E13AE2100E23117 /* V2NIMMessageVideoAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94DE2E13AE2100E23117 /* V2NIMMessageVideoAttachment.swift */; };
+		180B950D2E13AE2100E23117 /* V2NIMLocalConversationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D42E13AE2100E23117 /* V2NIMLocalConversationResult.swift */; };
+		180B950E2E13AE2100E23117 /* V2NIMLocalConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D02E13AE2100E23117 /* V2NIMLocalConversation.swift */; };
+		180B950F2E13AE2100E23117 /* V2NIMFriendAddApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94C72E13AE2100E23117 /* V2NIMFriendAddApplication.swift */; };
+		180B95102E13AE2100E23117 /* V2NIMFriendDeleteParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94CB2E13AE2100E23117 /* V2NIMFriendDeleteParams.swift */; };
+		180B95112E13AE2100E23117 /* V2NIMFriendAddParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94CA2E13AE2100E23117 /* V2NIMFriendAddParams.swift */; };
+		180B95122E13AE2100E23117 /* V2NIMMessageFileAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94DA2E13AE2100E23117 /* V2NIMMessageFileAttachment.swift */; };
+		180B95132E13AE2100E23117 /* V2NIMLocalConversationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D32E13AE2100E23117 /* V2NIMLocalConversationOption.swift */; };
+		180B95142E13AE2100E23117 /* V2NIMMessageAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D62E13AE2100E23117 /* V2NIMMessageAttachment.swift */; };
+		180B95152E13AE2100E23117 /* V2NIMMessageLocationAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94DC2E13AE2100E23117 /* V2NIMMessageLocationAttachment.swift */; };
+		180B95162E13AE2100E23117 /* V2NIMTeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E72E13AE2100E23117 /* V2NIMTeamMember.swift */; };
+		180B95172E13AE2100E23117 /* V2NIMLocalConversationFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D12E13AE2100E23117 /* V2NIMLocalConversationFilter.swift */; };
+		180B95182E13AE2100E23117 /* V2NIMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94F22E13AE2100E23117 /* V2NIMUser.swift */; };
+		180B95192E13AE2100E23117 /* V2NIMFriendAddApplicationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94C92E13AE2100E23117 /* V2NIMFriendAddApplicationResult.swift */; };
+		180B951A2E13AE2100E23117 /* V2NIMCreateTeamParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E02E13AE2100E23117 /* V2NIMCreateTeamParams.swift */; };
+		180B951B2E13AE2100E23117 /* V2NIMAIUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94F12E13AE2100E23117 /* V2NIMAIUser.swift */; };
+		180B951C2E13AE2100E23117 /* V2NIMTeamMemberListResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E82E13AE2100E23117 /* V2NIMTeamMemberListResult.swift */; };
+		180B951D2E13AE2100E23117 /* V2NIMTeamMemberQueryOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E92E13AE2100E23117 /* V2NIMTeamMemberQueryOption.swift */; };
+		180B951E2E13AE2100E23117 /* V2NIMLastMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94CF2E13AE2100E23117 /* V2NIMLastMessage.swift */; };
+		180B951F2E13AE2100E23117 /* V2NIMCreateTeamResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E12E13AE2100E23117 /* V2NIMCreateTeamResult.swift */; };
+		180B95202E13AE2100E23117 /* V2NIMTeamJoinActionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94E42E13AE2100E23117 /* V2NIMTeamJoinActionInfo.swift */; };
+		180B95212E13AE2100E23117 /* V2NIMMessageCallAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D72E13AE2100E23117 /* V2NIMMessageCallAttachment.swift */; };
+		180B95222E13AE2100E23117 /* V2NIMUserSearchOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94F32E13AE2100E23117 /* V2NIMUserSearchOption.swift */; };
+		180B95232E13AE2100E23117 /* V2NIMMessageRefer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94F82E13AE2100E23117 /* V2NIMMessageRefer.swift */; };
+		180B95242E13AE2100E23117 /* V2NIMMessageCallDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94D82E13AE2100E23117 /* V2NIMMessageCallDuration.swift */; };
+		180B95252E13AE2100E23117 /* V2NIMMessageImageAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94DB2E13AE2100E23117 /* V2NIMMessageImageAttachment.swift */; };
+		180B95262E13AE2100E23117 /* V2NIMAntispamConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94F62E13AE2100E23117 /* V2NIMAntispamConfig.swift */; };
+		180B95272E13AE2100E23117 /* V2NIMFriendAddApplicationQueryOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B94C82E13AE2100E23117 /* V2NIMFriendAddApplicationQueryOption.swift */; };
+		18A676012E13B51600223F2B /* V2NIMAIModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A676002E13B51600223F2B /* V2NIMAIModelConfig.swift */; };
+		762377B32E168E910019CA85 /* ExecutionLoginViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762377B22E168E910019CA85 /* ExecutionLoginViewModels.swift */; };
+		766135DA2E08394B00652948 /* ExecutionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766135D92E08394B00652948 /* ExecutionModel.swift */; };
+		766135DC2E083CED00652948 /* ExecutionMessageViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766135DB2E083CED00652948 /* ExecutionMessageViewModels.swift */; };
+		766135E02E08599000652948 /* ExecutionLocalConversationViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766135DF2E08599000652948 /* ExecutionLocalConversationViewModels.swift */; };
+		766135E22E085AA400652948 /* ExecutionViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766135E12E085AA400652948 /* ExecutionViewModels.swift */; };
+		766135E62E085BAD00652948 /* ExecutionFriendViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766135E52E085BAD00652948 /* ExecutionFriendViewModels.swift */; };
+		766135E82E085BDE00652948 /* ExecutionUserViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766135E72E085BDE00652948 /* ExecutionUserViewModels.swift */; };
+		766135EA2E085BF400652948 /* ExecutionTeamViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766135E92E085BF400652948 /* ExecutionTeamViewModels.swift */; };
+		766135EC2E098CE800652948 /* MediaUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766135EB2E098CE800652948 /* MediaUtil.swift */; };
+		766136042E0B921800652948 /* DirectoryUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766136032E0B921800652948 /* DirectoryUtil.swift */; };
+		76618E972D00059900E6F6E2 /* FunctionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76618E962D00059900E6F6E2 /* FunctionViewModel.swift */; };
+		76618E992D0005A400E6F6E2 /* FunctionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76618E982D0005A400E6F6E2 /* FunctionModel.swift */; };
+		76618E9C2D003F2A00E6F6E2 /* ExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76618E9B2D003F2A00E6F6E2 /* ExecutionView.swift */; };
+		76618E9E2D00427B00E6F6E2 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76618E9D2D00427B00E6F6E2 /* ContentModel.swift */; };
+		76D98E482CE20B8900C45690 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D98E472CE20B8900C45690 /* MainPage.swift */; };
+		76D98E4A2CE20B8900C45690 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D98E492CE20B8900C45690 /* ContentView.swift */; };
+		76D98E4C2CE20B8A00C45690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D98E4B2CE20B8A00C45690 /* Assets.xcassets */; };
+		76D98E4F2CE20B8A00C45690 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D98E4E2CE20B8A00C45690 /* Preview Assets.xcassets */; };
+		76D98E592CE20B8A00C45690 /* nim_ios_samplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D98E582CE20B8A00C45690 /* nim_ios_samplesTests.swift */; };
+		76D98E632CE20B8A00C45690 /* nim_ios_samplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D98E622CE20B8A00C45690 /* nim_ios_samplesUITests.swift */; };
+		76D98E652CE20B8A00C45690 /* nim_ios_samplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D98E642CE20B8A00C45690 /* nim_ios_samplesUITestsLaunchTests.swift */; };
+		76DBDE2D2CF0B391008FB248 /* String+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBDE2C2CF0B391008FB248 /* String+Util.swift */; };
+		76DBDE2F2CF0B454008FB248 /* Data+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBDE2E2CF0B454008FB248 /* Data+Util.swift */; };
+		76DBDE312CF0B474008FB248 /* Dictionary+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBDE302CF0B474008FB248 /* Dictionary+Util.swift */; };
+		76DBDE332CF0B58C008FB248 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76DBDE322CF0B58C008FB248 /* Settings.bundle */; };
+		76DBDE4C2CF32703008FB248 /* FunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBDE4B2CF32703008FB248 /* FunctionView.swift */; };
+		76DBDE552CF47BB6008FB248 /* NIMConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBDE542CF47BB6008FB248 /* NIMConstant.swift */; };
+		76DBDE592CF48015008FB248 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBDE582CF48015008FB248 /* Logger.swift */; };
+		76DBDE5B2CF4BEBF008FB248 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBDE5A2CF4BEBF008FB248 /* LoginView.swift */; };
+		9B4B52FC0CA1FDC9E87ED874 /* Pods_nim_ios_samples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1374F2E9DC9811A57D849730 /* Pods_nim_ios_samples.framework */; };
+		D7DBB57E9D67E9ABF17A505B /* Pods_nim_ios_samples_nim_ios_samplesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B798B222AA46D14F950B750 /* Pods_nim_ios_samples_nim_ios_samplesUITests.framework */; };
+		FC488D886747FD48042F4129 /* Pods_nim_ios_samplesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6066E5815F19451CB84D85C /* Pods_nim_ios_samplesTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76D98E552CE20B8A00C45690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D98E3C2CE20B8900C45690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76D98E432CE20B8900C45690;
+			remoteInfo = "nim-ios-samples";
+		};
+		76D98E5F2CE20B8A00C45690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76D98E3C2CE20B8900C45690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76D98E432CE20B8900C45690;
+			remoteInfo = "nim-ios-samples";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1374F2E9DC9811A57D849730 /* Pods_nim_ios_samples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nim_ios_samples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		180B94C62E13AE2100E23117 /* V2NIMFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMFriend.swift; sourceTree = "<group>"; };
+		180B94C72E13AE2100E23117 /* V2NIMFriendAddApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMFriendAddApplication.swift; sourceTree = "<group>"; };
+		180B94C82E13AE2100E23117 /* V2NIMFriendAddApplicationQueryOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMFriendAddApplicationQueryOption.swift; sourceTree = "<group>"; };
+		180B94C92E13AE2100E23117 /* V2NIMFriendAddApplicationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMFriendAddApplicationResult.swift; sourceTree = "<group>"; };
+		180B94CA2E13AE2100E23117 /* V2NIMFriendAddParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMFriendAddParams.swift; sourceTree = "<group>"; };
+		180B94CB2E13AE2100E23117 /* V2NIMFriendDeleteParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMFriendDeleteParams.swift; sourceTree = "<group>"; };
+		180B94CC2E13AE2100E23117 /* V2NIMFriendSearchOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMFriendSearchOption.swift; sourceTree = "<group>"; };
+		180B94CD2E13AE2100E23117 /* V2NIMFriendSetParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMFriendSetParams.swift; sourceTree = "<group>"; };
+		180B94CF2E13AE2100E23117 /* V2NIMLastMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMLastMessage.swift; sourceTree = "<group>"; };
+		180B94D02E13AE2100E23117 /* V2NIMLocalConversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMLocalConversation.swift; sourceTree = "<group>"; };
+		180B94D12E13AE2100E23117 /* V2NIMLocalConversationFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMLocalConversationFilter.swift; sourceTree = "<group>"; };
+		180B94D22E13AE2100E23117 /* V2NIMLocalConversationOperationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMLocalConversationOperationResult.swift; sourceTree = "<group>"; };
+		180B94D32E13AE2100E23117 /* V2NIMLocalConversationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMLocalConversationOption.swift; sourceTree = "<group>"; };
+		180B94D42E13AE2100E23117 /* V2NIMLocalConversationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMLocalConversationResult.swift; sourceTree = "<group>"; };
+		180B94D62E13AE2100E23117 /* V2NIMMessageAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageAttachment.swift; sourceTree = "<group>"; };
+		180B94D72E13AE2100E23117 /* V2NIMMessageCallAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageCallAttachment.swift; sourceTree = "<group>"; };
+		180B94D82E13AE2100E23117 /* V2NIMMessageCallDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageCallDuration.swift; sourceTree = "<group>"; };
+		180B94D92E13AE2100E23117 /* V2NIMMessageCustomAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageCustomAttachment.swift; sourceTree = "<group>"; };
+		180B94DA2E13AE2100E23117 /* V2NIMMessageFileAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageFileAttachment.swift; sourceTree = "<group>"; };
+		180B94DB2E13AE2100E23117 /* V2NIMMessageImageAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageImageAttachment.swift; sourceTree = "<group>"; };
+		180B94DC2E13AE2100E23117 /* V2NIMMessageLocationAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageLocationAttachment.swift; sourceTree = "<group>"; };
+		180B94DD2E13AE2100E23117 /* V2NIMMessageNotificationAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageNotificationAttachment.swift; sourceTree = "<group>"; };
+		180B94DE2E13AE2100E23117 /* V2NIMMessageVideoAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageVideoAttachment.swift; sourceTree = "<group>"; };
+		180B94E02E13AE2100E23117 /* V2NIMCreateTeamParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMCreateTeamParams.swift; sourceTree = "<group>"; };
+		180B94E12E13AE2100E23117 /* V2NIMCreateTeamResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMCreateTeamResult.swift; sourceTree = "<group>"; };
+		180B94E22E13AE2100E23117 /* V2NIMTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeam.swift; sourceTree = "<group>"; };
+		180B94E32E13AE2100E23117 /* V2NIMTeamInviteParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamInviteParams.swift; sourceTree = "<group>"; };
+		180B94E42E13AE2100E23117 /* V2NIMTeamJoinActionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamJoinActionInfo.swift; sourceTree = "<group>"; };
+		180B94E52E13AE2100E23117 /* V2NIMTeamJoinActionInfoQueryOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamJoinActionInfoQueryOption.swift; sourceTree = "<group>"; };
+		180B94E62E13AE2100E23117 /* V2NIMTeamJoinActionInfoResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamJoinActionInfoResult.swift; sourceTree = "<group>"; };
+		180B94E72E13AE2100E23117 /* V2NIMTeamMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamMember.swift; sourceTree = "<group>"; };
+		180B94E82E13AE2100E23117 /* V2NIMTeamMemberListResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamMemberListResult.swift; sourceTree = "<group>"; };
+		180B94E92E13AE2100E23117 /* V2NIMTeamMemberQueryOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamMemberQueryOption.swift; sourceTree = "<group>"; };
+		180B94EA2E13AE2100E23117 /* V2NIMTeamMemberSearchOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamMemberSearchOption.swift; sourceTree = "<group>"; };
+		180B94EB2E13AE2100E23117 /* V2NIMTeamMemberSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMTeamMemberSearchResult.swift; sourceTree = "<group>"; };
+		180B94EC2E13AE2100E23117 /* V2NIMUpdatedTeamInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMUpdatedTeamInfo.swift; sourceTree = "<group>"; };
+		180B94ED2E13AE2100E23117 /* V2NIMUpdateSelfMemberInfoParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMUpdateSelfMemberInfoParams.swift; sourceTree = "<group>"; };
+		180B94EE2E13AE2100E23117 /* V2NIMUpdateTeamInfoParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMUpdateTeamInfoParams.swift; sourceTree = "<group>"; };
+		180B94EF2E13AE2100E23117 /* V2TeamEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2TeamEnum.swift; sourceTree = "<group>"; };
+		180B94F12E13AE2100E23117 /* V2NIMAIUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMAIUser.swift; sourceTree = "<group>"; };
+		180B94F22E13AE2100E23117 /* V2NIMUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMUser.swift; sourceTree = "<group>"; };
+		180B94F32E13AE2100E23117 /* V2NIMUserSearchOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMUserSearchOption.swift; sourceTree = "<group>"; };
+		180B94F42E13AE2100E23117 /* V2NIMUserUpdateParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMUserUpdateParams.swift; sourceTree = "<group>"; };
+		180B94F62E13AE2100E23117 /* V2NIMAntispamConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMAntispamConfig.swift; sourceTree = "<group>"; };
+		180B94F72E13AE2100E23117 /* V2NIMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMError.swift; sourceTree = "<group>"; };
+		180B94F82E13AE2100E23117 /* V2NIMMessageRefer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V2NIMMessageRefer.swift; sourceTree = "<group>"; };
+		18A676002E13B51600223F2B /* V2NIMAIModelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = V2NIMAIModelConfig.swift; path = "nim-ios-samples/Classes/Pages/Execution/Extension/V2NIMAIModelConfig.swift"; sourceTree = SOURCE_ROOT; };
+		267D6BACAACD430BA8F4B395 /* Pods-nim-ios-samples-nim-ios-samplesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nim-ios-samples-nim-ios-samplesUITests.release.xcconfig"; path = "Target Support Files/Pods-nim-ios-samples-nim-ios-samplesUITests/Pods-nim-ios-samples-nim-ios-samplesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BCAC3B94B915BE95DD059BC /* Pods-nim-ios-samples-nim-ios-samplesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nim-ios-samples-nim-ios-samplesUITests.debug.xcconfig"; path = "Target Support Files/Pods-nim-ios-samples-nim-ios-samplesUITests/Pods-nim-ios-samples-nim-ios-samplesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		762377B22E168E910019CA85 /* ExecutionLoginViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionLoginViewModels.swift; sourceTree = "<group>"; };
+		766135D92E08394B00652948 /* ExecutionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionModel.swift; sourceTree = "<group>"; };
+		766135DB2E083CED00652948 /* ExecutionMessageViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionMessageViewModels.swift; sourceTree = "<group>"; };
+		766135DF2E08599000652948 /* ExecutionLocalConversationViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionLocalConversationViewModels.swift; sourceTree = "<group>"; };
+		766135E12E085AA400652948 /* ExecutionViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionViewModels.swift; sourceTree = "<group>"; };
+		766135E52E085BAD00652948 /* ExecutionFriendViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionFriendViewModels.swift; sourceTree = "<group>"; };
+		766135E72E085BDE00652948 /* ExecutionUserViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionUserViewModels.swift; sourceTree = "<group>"; };
+		766135E92E085BF400652948 /* ExecutionTeamViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionTeamViewModels.swift; sourceTree = "<group>"; };
+		766135EB2E098CE800652948 /* MediaUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaUtil.swift; sourceTree = "<group>"; };
+		766136032E0B921800652948 /* DirectoryUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryUtil.swift; sourceTree = "<group>"; };
+		76618E962D00059900E6F6E2 /* FunctionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewModel.swift; sourceTree = "<group>"; };
+		76618E982D0005A400E6F6E2 /* FunctionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionModel.swift; sourceTree = "<group>"; };
+		76618E9B2D003F2A00E6F6E2 /* ExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionView.swift; sourceTree = "<group>"; };
+		76618E9D2D00427B00E6F6E2 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		76D98E442CE20B8900C45690 /* nim-ios-samples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nim-ios-samples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D98E472CE20B8900C45690 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		76D98E492CE20B8900C45690 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		76D98E4B2CE20B8A00C45690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76D98E4E2CE20B8A00C45690 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76D98E542CE20B8A00C45690 /* nim-ios-samplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nim-ios-samplesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D98E582CE20B8A00C45690 /* nim_ios_samplesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nim_ios_samplesTests.swift; sourceTree = "<group>"; };
+		76D98E5E2CE20B8A00C45690 /* nim-ios-samplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nim-ios-samplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D98E622CE20B8A00C45690 /* nim_ios_samplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nim_ios_samplesUITests.swift; sourceTree = "<group>"; };
+		76D98E642CE20B8A00C45690 /* nim_ios_samplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nim_ios_samplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76DBDE2C2CF0B391008FB248 /* String+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Util.swift"; sourceTree = "<group>"; };
+		76DBDE2E2CF0B454008FB248 /* Data+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Util.swift"; sourceTree = "<group>"; };
+		76DBDE302CF0B474008FB248 /* Dictionary+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Util.swift"; sourceTree = "<group>"; };
+		76DBDE322CF0B58C008FB248 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		76DBDE4B2CF32703008FB248 /* FunctionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionView.swift; sourceTree = "<group>"; };
+		76DBDE512CF46BC7008FB248 /* NIM-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NIM-Bridging-Header.h"; sourceTree = "<group>"; };
+		76DBDE542CF47BB6008FB248 /* NIMConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIMConstant.swift; sourceTree = "<group>"; };
+		76DBDE582CF48015008FB248 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		76DBDE5A2CF4BEBF008FB248 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7A61C691A5ECA242C7032711 /* Pods-nim-ios-samplesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nim-ios-samplesTests.debug.xcconfig"; path = "Target Support Files/Pods-nim-ios-samplesTests/Pods-nim-ios-samplesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B798B222AA46D14F950B750 /* Pods_nim_ios_samples_nim_ios_samplesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nim_ios_samples_nim_ios_samplesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6066E5815F19451CB84D85C /* Pods_nim_ios_samplesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nim_ios_samplesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF639ACDC7525FE57B8F64D9 /* Pods-nim-ios-samples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nim-ios-samples.debug.xcconfig"; path = "Target Support Files/Pods-nim-ios-samples/Pods-nim-ios-samples.debug.xcconfig"; sourceTree = "<group>"; };
+		EE1DEACFA4EDDC850F2DA89D /* Pods-nim-ios-samplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nim-ios-samplesTests.release.xcconfig"; path = "Target Support Files/Pods-nim-ios-samplesTests/Pods-nim-ios-samplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEBBB02213D3D478AEE3C011 /* Pods-nim-ios-samples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nim-ios-samples.release.xcconfig"; path = "Target Support Files/Pods-nim-ios-samples/Pods-nim-ios-samples.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76D98E412CE20B8900C45690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B4B52FC0CA1FDC9E87ED874 /* Pods_nim_ios_samples.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D98E512CE20B8A00C45690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC488D886747FD48042F4129 /* Pods_nim_ios_samplesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D98E5B2CE20B8A00C45690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DBB57E9D67E9ABF17A505B /* Pods_nim_ios_samples_nim_ios_samplesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B04D0CAF2A7EB6E3F392417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1374F2E9DC9811A57D849730 /* Pods_nim_ios_samples.framework */,
+				7B798B222AA46D14F950B750 /* Pods_nim_ios_samples_nim_ios_samplesUITests.framework */,
+				B6066E5815F19451CB84D85C /* Pods_nim_ios_samplesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		180B94CE2E13AE2100E23117 /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				180B94C62E13AE2100E23117 /* V2NIMFriend.swift */,
+				180B94C72E13AE2100E23117 /* V2NIMFriendAddApplication.swift */,
+				180B94C82E13AE2100E23117 /* V2NIMFriendAddApplicationQueryOption.swift */,
+				180B94C92E13AE2100E23117 /* V2NIMFriendAddApplicationResult.swift */,
+				180B94CA2E13AE2100E23117 /* V2NIMFriendAddParams.swift */,
+				180B94CB2E13AE2100E23117 /* V2NIMFriendDeleteParams.swift */,
+				180B94CC2E13AE2100E23117 /* V2NIMFriendSearchOption.swift */,
+				180B94CD2E13AE2100E23117 /* V2NIMFriendSetParams.swift */,
+			);
+			path = Friend;
+			sourceTree = "<group>";
+		};
+		180B94D52E13AE2100E23117 /* LocalConversation */ = {
+			isa = PBXGroup;
+			children = (
+				180B94CF2E13AE2100E23117 /* V2NIMLastMessage.swift */,
+				180B94D02E13AE2100E23117 /* V2NIMLocalConversation.swift */,
+				180B94D12E13AE2100E23117 /* V2NIMLocalConversationFilter.swift */,
+				180B94D22E13AE2100E23117 /* V2NIMLocalConversationOperationResult.swift */,
+				180B94D32E13AE2100E23117 /* V2NIMLocalConversationOption.swift */,
+				180B94D42E13AE2100E23117 /* V2NIMLocalConversationResult.swift */,
+			);
+			path = LocalConversation;
+			sourceTree = "<group>";
+		};
+		180B94DF2E13AE2100E23117 /* MessageAttachment */ = {
+			isa = PBXGroup;
+			children = (
+				180B94D62E13AE2100E23117 /* V2NIMMessageAttachment.swift */,
+				180B94D72E13AE2100E23117 /* V2NIMMessageCallAttachment.swift */,
+				180B94D82E13AE2100E23117 /* V2NIMMessageCallDuration.swift */,
+				180B94D92E13AE2100E23117 /* V2NIMMessageCustomAttachment.swift */,
+				180B94DA2E13AE2100E23117 /* V2NIMMessageFileAttachment.swift */,
+				180B94DB2E13AE2100E23117 /* V2NIMMessageImageAttachment.swift */,
+				180B94DC2E13AE2100E23117 /* V2NIMMessageLocationAttachment.swift */,
+				180B94DD2E13AE2100E23117 /* V2NIMMessageNotificationAttachment.swift */,
+				180B94DE2E13AE2100E23117 /* V2NIMMessageVideoAttachment.swift */,
+			);
+			path = MessageAttachment;
+			sourceTree = "<group>";
+		};
+		180B94F02E13AE2100E23117 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				180B94E02E13AE2100E23117 /* V2NIMCreateTeamParams.swift */,
+				180B94E12E13AE2100E23117 /* V2NIMCreateTeamResult.swift */,
+				180B94E22E13AE2100E23117 /* V2NIMTeam.swift */,
+				180B94E32E13AE2100E23117 /* V2NIMTeamInviteParams.swift */,
+				180B94E42E13AE2100E23117 /* V2NIMTeamJoinActionInfo.swift */,
+				180B94E52E13AE2100E23117 /* V2NIMTeamJoinActionInfoQueryOption.swift */,
+				180B94E62E13AE2100E23117 /* V2NIMTeamJoinActionInfoResult.swift */,
+				180B94E72E13AE2100E23117 /* V2NIMTeamMember.swift */,
+				180B94E82E13AE2100E23117 /* V2NIMTeamMemberListResult.swift */,
+				180B94E92E13AE2100E23117 /* V2NIMTeamMemberQueryOption.swift */,
+				180B94EA2E13AE2100E23117 /* V2NIMTeamMemberSearchOption.swift */,
+				180B94EB2E13AE2100E23117 /* V2NIMTeamMemberSearchResult.swift */,
+				180B94EC2E13AE2100E23117 /* V2NIMUpdatedTeamInfo.swift */,
+				180B94ED2E13AE2100E23117 /* V2NIMUpdateSelfMemberInfoParams.swift */,
+				180B94EE2E13AE2100E23117 /* V2NIMUpdateTeamInfoParams.swift */,
+				180B94EF2E13AE2100E23117 /* V2TeamEnum.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		180B94F52E13AE2100E23117 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				180B94F12E13AE2100E23117 /* V2NIMAIUser.swift */,
+				180B94F22E13AE2100E23117 /* V2NIMUser.swift */,
+				180B94F32E13AE2100E23117 /* V2NIMUserSearchOption.swift */,
+				180B94F42E13AE2100E23117 /* V2NIMUserUpdateParams.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		180B94F92E13AE2100E23117 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				180B94CE2E13AE2100E23117 /* Friend */,
+				180B94D52E13AE2100E23117 /* LocalConversation */,
+				180B94DF2E13AE2100E23117 /* MessageAttachment */,
+				180B94F02E13AE2100E23117 /* Team */,
+				180B94F52E13AE2100E23117 /* User */,
+				180B94F62E13AE2100E23117 /* V2NIMAntispamConfig.swift */,
+				18A676002E13B51600223F2B /* V2NIMAIModelConfig.swift */,
+				180B94F72E13AE2100E23117 /* V2NIMError.swift */,
+				180B94F82E13AE2100E23117 /* V2NIMMessageRefer.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		424564CB3B78367FD74986DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF639ACDC7525FE57B8F64D9 /* Pods-nim-ios-samples.debug.xcconfig */,
+				EEBBB02213D3D478AEE3C011 /* Pods-nim-ios-samples.release.xcconfig */,
+				3BCAC3B94B915BE95DD059BC /* Pods-nim-ios-samples-nim-ios-samplesUITests.debug.xcconfig */,
+				267D6BACAACD430BA8F4B395 /* Pods-nim-ios-samples-nim-ios-samplesUITests.release.xcconfig */,
+				7A61C691A5ECA242C7032711 /* Pods-nim-ios-samplesTests.debug.xcconfig */,
+				EE1DEACFA4EDDC850F2DA89D /* Pods-nim-ios-samplesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		766135CA2E04756E00652948 /* ExecutionViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				766135E12E085AA400652948 /* ExecutionViewModels.swift */,
+				762377B22E168E910019CA85 /* ExecutionLoginViewModels.swift */,
+				766135DB2E083CED00652948 /* ExecutionMessageViewModels.swift */,
+				766135DF2E08599000652948 /* ExecutionLocalConversationViewModels.swift */,
+				766135E52E085BAD00652948 /* ExecutionFriendViewModels.swift */,
+				766135E72E085BDE00652948 /* ExecutionUserViewModels.swift */,
+				766135E92E085BF400652948 /* ExecutionTeamViewModels.swift */,
+			);
+			path = ExecutionViewModel;
+			sourceTree = "<group>";
+		};
+		76618E952D00056F00E6F6E2 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				76DBDE4B2CF32703008FB248 /* FunctionView.swift */,
+				76618E962D00059900E6F6E2 /* FunctionViewModel.swift */,
+				76618E982D0005A400E6F6E2 /* FunctionModel.swift */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		76618E9A2D003F1C00E6F6E2 /* Execution */ = {
+			isa = PBXGroup;
+			children = (
+				180B94F92E13AE2100E23117 /* Extension */,
+				766135D92E08394B00652948 /* ExecutionModel.swift */,
+				766135CA2E04756E00652948 /* ExecutionViewModel */,
+				76618E9B2D003F2A00E6F6E2 /* ExecutionView.swift */,
+			);
+			path = Execution;
+			sourceTree = "<group>";
+		};
+		766C9C1D2D088538006B4379 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				76DBDE5A2CF4BEBF008FB248 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		76D98E3B2CE20B8900C45690 = {
+			isa = PBXGroup;
+			children = (
+				76D98E462CE20B8900C45690 /* nim-ios-samples */,
+				76D98E572CE20B8A00C45690 /* nim-ios-samplesTests */,
+				76D98E612CE20B8A00C45690 /* nim-ios-samplesUITests */,
+				76D98E452CE20B8900C45690 /* Products */,
+				424564CB3B78367FD74986DB /* Pods */,
+				0B04D0CAF2A7EB6E3F392417 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76D98E452CE20B8900C45690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76D98E442CE20B8900C45690 /* nim-ios-samples.app */,
+				76D98E542CE20B8A00C45690 /* nim-ios-samplesTests.xctest */,
+				76D98E5E2CE20B8A00C45690 /* nim-ios-samplesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76D98E462CE20B8900C45690 /* nim-ios-samples */ = {
+			isa = PBXGroup;
+			children = (
+				76DBDE292CF0B1EB008FB248 /* Classes */,
+				76D98E4B2CE20B8A00C45690 /* Assets.xcassets */,
+				76D98E4D2CE20B8A00C45690 /* Preview Content */,
+				76DBDE322CF0B58C008FB248 /* Settings.bundle */,
+				76DBDE512CF46BC7008FB248 /* NIM-Bridging-Header.h */,
+			);
+			path = "nim-ios-samples";
+			sourceTree = "<group>";
+		};
+		76D98E4D2CE20B8A00C45690 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				76D98E4E2CE20B8A00C45690 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76D98E572CE20B8A00C45690 /* nim-ios-samplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				76D98E582CE20B8A00C45690 /* nim_ios_samplesTests.swift */,
+			);
+			path = "nim-ios-samplesTests";
+			sourceTree = "<group>";
+		};
+		76D98E612CE20B8A00C45690 /* nim-ios-samplesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76D98E622CE20B8A00C45690 /* nim_ios_samplesUITests.swift */,
+				76D98E642CE20B8A00C45690 /* nim_ios_samplesUITestsLaunchTests.swift */,
+			);
+			path = "nim-ios-samplesUITests";
+			sourceTree = "<group>";
+		};
+		76DBDE292CF0B1EB008FB248 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76DBDE572CF47FE3008FB248 /* Utils */,
+				76DBDE562CF47C4E008FB248 /* Helpers */,
+				76DBDE532CF47B9E008FB248 /* Constants */,
+				76DBDE2B2CF0B375008FB248 /* Category */,
+				76DBDE2A2CF0B2EE008FB248 /* Pages */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		76DBDE2A2CF0B2EE008FB248 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				766C9C1D2D088538006B4379 /* Login */,
+				76618E9A2D003F1C00E6F6E2 /* Execution */,
+				76618E952D00056F00E6F6E2 /* Function */,
+				76D98E472CE20B8900C45690 /* MainPage.swift */,
+				76D98E492CE20B8900C45690 /* ContentView.swift */,
+				76618E9D2D00427B00E6F6E2 /* ContentModel.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		76DBDE2B2CF0B375008FB248 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				76DBDE2C2CF0B391008FB248 /* String+Util.swift */,
+				76DBDE2E2CF0B454008FB248 /* Data+Util.swift */,
+				76DBDE302CF0B474008FB248 /* Dictionary+Util.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		76DBDE532CF47B9E008FB248 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				76DBDE542CF47BB6008FB248 /* NIMConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		76DBDE562CF47C4E008FB248 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		76DBDE572CF47FE3008FB248 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				76DBDE582CF48015008FB248 /* Logger.swift */,
+				766135EB2E098CE800652948 /* MediaUtil.swift */,
+				766136032E0B921800652948 /* DirectoryUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76D98E432CE20B8900C45690 /* nim-ios-samples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D98E682CE20B8A00C45690 /* Build configuration list for PBXNativeTarget "nim-ios-samples" */;
+			buildPhases = (
+				176D428565EE9366AFFF156A /* [CP] Check Pods Manifest.lock */,
+				76D98E402CE20B8900C45690 /* Sources */,
+				76D98E412CE20B8900C45690 /* Frameworks */,
+				76D98E422CE20B8900C45690 /* Resources */,
+				05B59E732D533E842EAA4D1A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nim-ios-samples";
+			productName = "nim-ios-samples";
+			productReference = 76D98E442CE20B8900C45690 /* nim-ios-samples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76D98E532CE20B8A00C45690 /* nim-ios-samplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D98E6B2CE20B8A00C45690 /* Build configuration list for PBXNativeTarget "nim-ios-samplesTests" */;
+			buildPhases = (
+				7361869FA922681BB79EB861 /* [CP] Check Pods Manifest.lock */,
+				76D98E502CE20B8A00C45690 /* Sources */,
+				76D98E512CE20B8A00C45690 /* Frameworks */,
+				76D98E522CE20B8A00C45690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76D98E562CE20B8A00C45690 /* PBXTargetDependency */,
+			);
+			name = "nim-ios-samplesTests";
+			productName = "nim-ios-samplesTests";
+			productReference = 76D98E542CE20B8A00C45690 /* nim-ios-samplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76D98E5D2CE20B8A00C45690 /* nim-ios-samplesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76D98E6E2CE20B8A00C45690 /* Build configuration list for PBXNativeTarget "nim-ios-samplesUITests" */;
+			buildPhases = (
+				FF78CD01803167C597897455 /* [CP] Check Pods Manifest.lock */,
+				76D98E5A2CE20B8A00C45690 /* Sources */,
+				76D98E5B2CE20B8A00C45690 /* Frameworks */,
+				76D98E5C2CE20B8A00C45690 /* Resources */,
+				851B25BBF4EB521031430AC0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76D98E602CE20B8A00C45690 /* PBXTargetDependency */,
+			);
+			name = "nim-ios-samplesUITests";
+			productName = "nim-ios-samplesUITests";
+			productReference = 76D98E5E2CE20B8A00C45690 /* nim-ios-samplesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76D98E3C2CE20B8900C45690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					76D98E432CE20B8900C45690 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					76D98E532CE20B8A00C45690 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 76D98E432CE20B8900C45690;
+					};
+					76D98E5D2CE20B8A00C45690 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 76D98E432CE20B8900C45690;
+					};
+				};
+			};
+			buildConfigurationList = 76D98E3F2CE20B8900C45690 /* Build configuration list for PBXProject "nim-ios-samples" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76D98E3B2CE20B8900C45690;
+			productRefGroup = 76D98E452CE20B8900C45690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76D98E432CE20B8900C45690 /* nim-ios-samples */,
+				76D98E532CE20B8A00C45690 /* nim-ios-samplesTests */,
+				76D98E5D2CE20B8A00C45690 /* nim-ios-samplesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D98E422CE20B8900C45690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D98E4F2CE20B8A00C45690 /* Preview Assets.xcassets in Resources */,
+				76DBDE332CF0B58C008FB248 /* Settings.bundle in Resources */,
+				76D98E4C2CE20B8A00C45690 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D98E522CE20B8A00C45690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D98E5C2CE20B8A00C45690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B59E732D533E842EAA4D1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nim-ios-samples/Pods-nim-ios-samples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nim-ios-samples/Pods-nim-ios-samples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nim-ios-samples/Pods-nim-ios-samples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		176D428565EE9366AFFF156A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nim-ios-samples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7361869FA922681BB79EB861 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nim-ios-samplesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		851B25BBF4EB521031430AC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nim-ios-samples-nim-ios-samplesUITests/Pods-nim-ios-samples-nim-ios-samplesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nim-ios-samples-nim-ios-samplesUITests/Pods-nim-ios-samples-nim-ios-samplesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nim-ios-samples-nim-ios-samplesUITests/Pods-nim-ios-samples-nim-ios-samplesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF78CD01803167C597897455 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nim-ios-samples-nim-ios-samplesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76D98E402CE20B8900C45690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DBDE2D2CF0B391008FB248 /* String+Util.swift in Sources */,
+				766136042E0B921800652948 /* DirectoryUtil.swift in Sources */,
+				766135DA2E08394B00652948 /* ExecutionModel.swift in Sources */,
+				766135DC2E083CED00652948 /* ExecutionMessageViewModels.swift in Sources */,
+				180B94FA2E13AE2100E23117 /* V2NIMFriend.swift in Sources */,
+				18A676012E13B51600223F2B /* V2NIMAIModelConfig.swift in Sources */,
+				180B94FB2E13AE2100E23117 /* V2NIMUpdateTeamInfoParams.swift in Sources */,
+				180B94FC2E13AE2100E23117 /* V2TeamEnum.swift in Sources */,
+				180B94FD2E13AE2100E23117 /* V2NIMTeamMemberSearchOption.swift in Sources */,
+				180B94FE2E13AE2100E23117 /* V2NIMTeamJoinActionInfoResult.swift in Sources */,
+				180B94FF2E13AE2100E23117 /* V2NIMUserUpdateParams.swift in Sources */,
+				180B95002E13AE2100E23117 /* V2NIMTeam.swift in Sources */,
+				180B95012E13AE2100E23117 /* V2NIMTeamInviteParams.swift in Sources */,
+				180B95022E13AE2100E23117 /* V2NIMMessageCustomAttachment.swift in Sources */,
+				180B95032E13AE2100E23117 /* V2NIMError.swift in Sources */,
+				180B95042E13AE2100E23117 /* V2NIMUpdateSelfMemberInfoParams.swift in Sources */,
+				180B95052E13AE2100E23117 /* V2NIMFriendSetParams.swift in Sources */,
+				180B95062E13AE2100E23117 /* V2NIMLocalConversationOperationResult.swift in Sources */,
+				180B95072E13AE2100E23117 /* V2NIMUpdatedTeamInfo.swift in Sources */,
+				180B95082E13AE2100E23117 /* V2NIMMessageNotificationAttachment.swift in Sources */,
+				180B95092E13AE2100E23117 /* V2NIMTeamJoinActionInfoQueryOption.swift in Sources */,
+				180B950A2E13AE2100E23117 /* V2NIMFriendSearchOption.swift in Sources */,
+				180B950B2E13AE2100E23117 /* V2NIMTeamMemberSearchResult.swift in Sources */,
+				180B950C2E13AE2100E23117 /* V2NIMMessageVideoAttachment.swift in Sources */,
+				180B950D2E13AE2100E23117 /* V2NIMLocalConversationResult.swift in Sources */,
+				180B950E2E13AE2100E23117 /* V2NIMLocalConversation.swift in Sources */,
+				180B950F2E13AE2100E23117 /* V2NIMFriendAddApplication.swift in Sources */,
+				180B95102E13AE2100E23117 /* V2NIMFriendDeleteParams.swift in Sources */,
+				180B95112E13AE2100E23117 /* V2NIMFriendAddParams.swift in Sources */,
+				180B95122E13AE2100E23117 /* V2NIMMessageFileAttachment.swift in Sources */,
+				180B95132E13AE2100E23117 /* V2NIMLocalConversationOption.swift in Sources */,
+				180B95142E13AE2100E23117 /* V2NIMMessageAttachment.swift in Sources */,
+				180B95152E13AE2100E23117 /* V2NIMMessageLocationAttachment.swift in Sources */,
+				180B95162E13AE2100E23117 /* V2NIMTeamMember.swift in Sources */,
+				180B95172E13AE2100E23117 /* V2NIMLocalConversationFilter.swift in Sources */,
+				180B95182E13AE2100E23117 /* V2NIMUser.swift in Sources */,
+				180B95192E13AE2100E23117 /* V2NIMFriendAddApplicationResult.swift in Sources */,
+				180B951A2E13AE2100E23117 /* V2NIMCreateTeamParams.swift in Sources */,
+				180B951B2E13AE2100E23117 /* V2NIMAIUser.swift in Sources */,
+				180B951C2E13AE2100E23117 /* V2NIMTeamMemberListResult.swift in Sources */,
+				180B951D2E13AE2100E23117 /* V2NIMTeamMemberQueryOption.swift in Sources */,
+				180B951E2E13AE2100E23117 /* V2NIMLastMessage.swift in Sources */,
+				180B951F2E13AE2100E23117 /* V2NIMCreateTeamResult.swift in Sources */,
+				180B95202E13AE2100E23117 /* V2NIMTeamJoinActionInfo.swift in Sources */,
+				180B95212E13AE2100E23117 /* V2NIMMessageCallAttachment.swift in Sources */,
+				180B95222E13AE2100E23117 /* V2NIMUserSearchOption.swift in Sources */,
+				180B95232E13AE2100E23117 /* V2NIMMessageRefer.swift in Sources */,
+				180B95242E13AE2100E23117 /* V2NIMMessageCallDuration.swift in Sources */,
+				180B95252E13AE2100E23117 /* V2NIMMessageImageAttachment.swift in Sources */,
+				180B95262E13AE2100E23117 /* V2NIMAntispamConfig.swift in Sources */,
+				180B95272E13AE2100E23117 /* V2NIMFriendAddApplicationQueryOption.swift in Sources */,
+				76618E9E2D00427B00E6F6E2 /* ContentModel.swift in Sources */,
+				76DBDE2F2CF0B454008FB248 /* Data+Util.swift in Sources */,
+				76DBDE312CF0B474008FB248 /* Dictionary+Util.swift in Sources */,
+				76618E992D0005A400E6F6E2 /* FunctionModel.swift in Sources */,
+				76DBDE5B2CF4BEBF008FB248 /* LoginView.swift in Sources */,
+				766135E62E085BAD00652948 /* ExecutionFriendViewModels.swift in Sources */,
+				766135E82E085BDE00652948 /* ExecutionUserViewModels.swift in Sources */,
+				76618E972D00059900E6F6E2 /* FunctionViewModel.swift in Sources */,
+				766135EA2E085BF400652948 /* ExecutionTeamViewModels.swift in Sources */,
+				76D98E4A2CE20B8900C45690 /* ContentView.swift in Sources */,
+				762377B32E168E910019CA85 /* ExecutionLoginViewModels.swift in Sources */,
+				76DBDE4C2CF32703008FB248 /* FunctionView.swift in Sources */,
+				76DBDE552CF47BB6008FB248 /* NIMConstant.swift in Sources */,
+				766135E22E085AA400652948 /* ExecutionViewModels.swift in Sources */,
+				76618E9C2D003F2A00E6F6E2 /* ExecutionView.swift in Sources */,
+				766135EC2E098CE800652948 /* MediaUtil.swift in Sources */,
+				76D98E482CE20B8900C45690 /* MainPage.swift in Sources */,
+				76DBDE592CF48015008FB248 /* Logger.swift in Sources */,
+				766135E02E08599000652948 /* ExecutionLocalConversationViewModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D98E502CE20B8A00C45690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D98E592CE20B8A00C45690 /* nim_ios_samplesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76D98E5A2CE20B8A00C45690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76D98E632CE20B8A00C45690 /* nim_ios_samplesUITests.swift in Sources */,
+				76D98E652CE20B8A00C45690 /* nim_ios_samplesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76D98E562CE20B8A00C45690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76D98E432CE20B8900C45690 /* nim-ios-samples */;
+			targetProxy = 76D98E552CE20B8A00C45690 /* PBXContainerItemProxy */;
+		};
+		76D98E602CE20B8A00C45690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76D98E432CE20B8900C45690 /* nim-ios-samples */;
+			targetProxy = 76D98E5F2CE20B8A00C45690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76D98E662CE20B8A00C45690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76D98E672CE20B8A00C45690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76D98E692CE20B8A00C45690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF639ACDC7525FE57B8F64D9 /* Pods-nim-ios-samples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nim-ios-samples/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C9A6NRV5L;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.nim.samples.nim-ios-samples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/nim-ios-samples/NIM-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76D98E6A2CE20B8A00C45690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBBB02213D3D478AEE3C011 /* Pods-nim-ios-samples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nim-ios-samples/Preview Content\"";
+				DEVELOPMENT_TEAM = 7C9A6NRV5L;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.nim.samples.nim-ios-samples";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/nim-ios-samples/NIM-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76D98E6C2CE20B8A00C45690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A61C691A5ECA242C7032711 /* Pods-nim-ios-samplesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569GNZ5392;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.nim.samples.nim-ios-samplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nim-ios-samples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nim-ios-samples";
+			};
+			name = Debug;
+		};
+		76D98E6D2CE20B8A00C45690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE1DEACFA4EDDC850F2DA89D /* Pods-nim-ios-samplesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569GNZ5392;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.nim.samples.nim-ios-samplesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nim-ios-samples.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nim-ios-samples";
+			};
+			name = Release;
+		};
+		76D98E6F2CE20B8A00C45690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BCAC3B94B915BE95DD059BC /* Pods-nim-ios-samples-nim-ios-samplesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569GNZ5392;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.nim.samples.nim-ios-samplesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nim-ios-samples";
+			};
+			name = Debug;
+		};
+		76D98E702CE20B8A00C45690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 267D6BACAACD430BA8F4B395 /* Pods-nim-ios-samples-nim-ios-samplesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569GNZ5392;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.netease.nim.samples.nim-ios-samplesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nim-ios-samples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76D98E3F2CE20B8900C45690 /* Build configuration list for PBXProject "nim-ios-samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D98E662CE20B8A00C45690 /* Debug */,
+				76D98E672CE20B8A00C45690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D98E682CE20B8A00C45690 /* Build configuration list for PBXNativeTarget "nim-ios-samples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D98E692CE20B8A00C45690 /* Debug */,
+				76D98E6A2CE20B8A00C45690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D98E6B2CE20B8A00C45690 /* Build configuration list for PBXNativeTarget "nim-ios-samplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D98E6C2CE20B8A00C45690 /* Debug */,
+				76D98E6D2CE20B8A00C45690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76D98E6E2CE20B8A00C45690 /* Build configuration list for PBXNativeTarget "nim-ios-samplesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D98E6F2CE20B8A00C45690 /* Debug */,
+				76D98E702CE20B8A00C45690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76D98E3C2CE20B8900C45690 /* Project object */;
+}
