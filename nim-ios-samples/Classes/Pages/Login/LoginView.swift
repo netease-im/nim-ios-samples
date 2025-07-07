@@ -76,7 +76,7 @@ struct LoginView: View {
         
         // 规范参数
         let accountId = self.accountId
-        let token = self.password.ntes_md5()
+        let token = self.password
         let option = self.generateLoginOption()
         
         // 调用登录API
